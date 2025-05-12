@@ -1,0 +1,27 @@
+nav{
+    padding: 40px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: white;
+#ph1{
+    width: 200px;
+}
+#ph2{
+    width: 100px;
+}
+    background-color: #1c9cd9;
+}
+
+@media (max-width : 700px) {
+nav{
+    #ph1{
+        width: 120px;
+    }
+
+    #ph2{
+        width: 70px;
+    }
+}
+}
